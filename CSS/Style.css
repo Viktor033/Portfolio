@@ -200,6 +200,7 @@ span {
 
 .Portfolio {
     background: var(--second-bg-color);
+    padding: 2rem;
 }
 
 .Portfolio h2 {
@@ -215,7 +216,7 @@ span {
 }
 
 .Portfolio-contenedor .Portfolio-box {
-    margin-bottom: 4rem;
+    margin: 1.4rem;
     position: relative;
     border-radius: 2rem;
     box-shadow: 0 0 1rem var(--bg-color);
