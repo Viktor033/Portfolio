@@ -71,6 +71,7 @@ body {
 }
 
 .Inicio {
+    padding: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -126,6 +127,7 @@ span {
 }
 
 .SobreMi {
+    padding: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -140,6 +142,7 @@ span {
 .heading {
     text-align: center;
     font-size: 4.5rem;
+    padding: 2.5rem;
 }
 
 .SobreMi-Contenedor h2{
@@ -157,12 +160,10 @@ span {
 }
 
 .Servicios h2 {
-    margin: 2rem;
-    padding: 2rem;
+   margin-bottom: 2.4rem;
 }
 
 .Servicios-contenedor {
-    margin-bottom: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -279,14 +280,73 @@ span {
     color: var(--second-bg-color);
 }
 
+.Contacto h2 {
+    margin-bottom: 3rem;
+}
 
+.Contacto form {
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
 
+.Contacto form .input-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
+.Contacto form .input-box input,
+.Contacto form textarea {
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background: var(--second-bg-color);
+    border-radius: .8rem;
+    margin: .7rem 0;
+}
 
+.Contacto form .input-box input {
+    width: 49%;
+}
 
+.Contacto form textarea {
+    resize: none;
+}
 
+.Contacto form .btn {
+    margin-top: 2rem;
+    cursor: pointer;
+}
 
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background: var(--second-bg-color);
+}
 
+.footer-text p {
+    font-size: 1.6rem;
+}
+
+.footer-iconTop a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem;
+    background: var(--main-color);
+    border-radius: .8rem;
+}
+
+.footer-iconTop a i {
+    font-size: 2.4rem;
+    color: var(--second-bg-color);
+}
 
 
 
