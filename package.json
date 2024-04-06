@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio personal",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Viktor033/Portfolio.git#main"
+  },
+  "author": "Victor Duarte vk.developer.web@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Viktor033/Portfolio/issues"
+  },
+  "homepage": "https://github.com/Viktor033/Portfolio/tree/main#readme"
+}
