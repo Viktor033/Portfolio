@@ -39,7 +39,7 @@ window.onscroll =  () => {
 /*===================== scroll reveal  ===================*/
 
 ScrollReveal({
-     reset: true, 
+    // reset: true, 
      distance: '80px',
      duration: 2000,
      delay: 200,
@@ -47,3 +47,13 @@ ScrollReveal({
 
 ScrollReveal().reveal('.inicio-contenedor, .heading', { origin: 'top' });
 ScrollReveal().reveal('.inicio-img, .Servicios-contenedor, .Portfolio-box, .Contacto form', { origin: 'bottom' });
+
+ScrollReveal().reveal('.inicio-contenedor h1, .SobreMi-img', { origin: 'left' });
+
+ScrollReveal().reveal('.inicio-contenedor p, .SobreMi-Contenedor', { origin: 'right' });
+
+/*===================== sTypeado JS  ===================*/
+
+const typed = new Typed('.multiple-text', {
+    strings: ['FullStack Java Developer']
+});
