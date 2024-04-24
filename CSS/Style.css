@@ -363,8 +363,6 @@ span {
     color: var(--second-bg-color);
 }
 
-
-
 /* RESPONSIVE */
 
 @media (max-width: 1200px) {
@@ -438,16 +436,16 @@ span {
         font-size: 5rem;
     }
 
-    .Inicio img {
+    .Inicio-img img {
         width: 70vw;
         margin-top: 4rem;
     }
 
-    .obreMi {
+    .SobreMi {
         flex-direction: column-reverse;
     }
 
-    .SobreMi-img {
+    .SobreMi img {
         width: 70vw;
         margin-top: 4rem;
     }
