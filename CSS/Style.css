@@ -382,6 +382,18 @@ span {
         padding: 10rem 3% 2rem;
     }
 
+    .servicios {
+        padding-bottom: 7rem;
+    }
+
+    .Portfolio {
+        padding-bottom: 7rem;
+    }
+
+    .Contacto {
+        min-height: auto;
+    }
+
     .footer{
         padding: 2rem 3%;
     }
@@ -412,6 +424,79 @@ span {
         display: block;
         font-size: 2rem;
         margin: 3rem 0;
+    }
+
+    .Inicio {
+        flex-direction: column;
+    }
+
+    .inicio-contenedor h3 {
+        font-size: 2.6rem;
+    }
+
+    .inicio-contenedor h1{
+        font-size: 5rem;
+    }
+
+    .Inicio img {
+        width: 70vw;
+        margin-top: 4rem;
+    }
+
+    .obreMi {
+        flex-direction: column-reverse;
+    }
+
+    .SobreMi-img {
+        width: 70vw;
+        margin-top: 4rem;
+    }
+
+    .Servicios h2 {
+        margin-bottom: 3rem;
+    }
+
+    .Portfolio h2 {
+        margin-bottom: 3rem;
+    }
+
+    .Portfolio-contenedor {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 617px) {
+    .Portfolio-contenedor {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 50%;
+    }
+
+    .Contacto form .input-box input {
+        width: 100%;
+    }
+}
+
+@media (max-width: 365px) {
+    .inicio-img img {
+        width: 90vw;
+    }
+
+    .SobreMi-img img {
+        width: 90vw;
+    }
+
+    .footer {
+        flex-direction: column-reverse;
+    }
+
+    .footer p {
+        text-align: center;
+        margin-top: 2rem;
     }
 }
 
