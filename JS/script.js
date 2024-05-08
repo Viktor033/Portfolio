@@ -55,5 +55,9 @@ ScrollReveal().reveal('.inicio-contenedor p, .SobreMi-Contenedor', { origin: 'ri
 /*===================== sTypeado JS  ===================*/
 
 const typed = new Typed('.multiple-text', {
-    strings: ['FullStack Java Developer']
+    strings: ['Developer Java Web', 'Community Mannager', 'Diseñador grafico'],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 1000,
+    loop: true,
 });
