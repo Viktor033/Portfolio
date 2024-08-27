@@ -4,7 +4,8 @@
   "description": "Portfolio personal",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+   "dev":"nodemon server.js",
+   "start":"node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/Viktor033/Portfolio/issues"
   },
-  "homepage": "https://github.com/Viktor033/Portfolio/tree/main#readme"
+  "homepage": "https://github.com/Viktor033/Portfolio/tree/main#readme",
+  "keywords": [],
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^2.2.0"
+  }
 }
