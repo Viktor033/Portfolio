@@ -77,3 +77,32 @@ const enviarFormulario = (event) => {
 }
 
 document.getElementById("send").addEventListener('click', enviarFormulario);
+
+/*======================= Barra en Movimiento ==========================*/
+
+
+    const slider = document.querySelector('.tecnologias-slider');
+    const clone = slider.innerHTML;
+    slider.innerHTML += clone; // Añadimos el clon para un scroll continuo
+
+    // Pausar animación cuando el mouse está sobre una imagen
+    const tecnologiaItems = document.querySelectorAll('.tecnologia-item');
+
+    tecnologiaItems.forEach(item => {
+        item.addEventListener('mouseover', () => {
+            slider.style.animationPlayState = 'paused'; // Pausa la animación
+            const descripcion = document.createElement('div');
+            descripcion.className = 'descripcion';
+            descripcion.textContent = item.getAttribute('data-descripcion');
+            item.appendChild(descripcion);
+        });
+
+        item.addEventListener('mouseout', () => {
+            slider.style.animationPlayState = 'running'; // Reanuda la animación
+            const descripcion = item.querySelector('.descripcion');
+            if (descripcion) {
+                descripcion.remove(); // Elimina la descripción cuando el mouse sale
+            }
+        });
+    });
+
