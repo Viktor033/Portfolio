@@ -45,6 +45,7 @@ body {
     z-index: 100;    
 }
 
+
 .header.sticky {
     border-bottom: .1rem solid rgba(0, 0, 0, .2);
 }
@@ -80,7 +81,11 @@ body {
     justify-content: center;
     align-items: center;
 }
-
+.contenedor-visitas{
+    font-size: 1.7rem;
+    color: var(--text-color);
+    margin-left: 4rem; ;
+}
 .inicio-img img {
     height: auto;
     animation: floatImage 4s ease-in-out infinite;

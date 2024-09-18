@@ -53,7 +53,7 @@ ScrollReveal().reveal('.inicio-contenedor p, .SobreMi-Contenedor', { origin: 'ri
 /*===================== sTypeado JS  ===================*/
 
 const typed = new Typed('.multiple-text', {
-    strings: ['Developer Java Web', 'Community Mannager', 'Diseñador grafico'],
+    strings: ['Desarrollador Java Web', 'Community Mannager', 'Diseñador grafico'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
@@ -75,10 +75,9 @@ const enviarFormulario = (event) => {
         alert("Por favor, completa todos los campos antes de enviar.");
     }
 }
-
 document.getElementById("send").addEventListener('click', enviarFormulario);
 
-/*======================= Barra en Movimiento ==========================*/
+/*======================= Barra en Movimiento tecnologias ==========================*/
 
 
     const slider = document.querySelector('.tecnologias-slider');
