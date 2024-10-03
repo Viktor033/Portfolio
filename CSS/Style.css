@@ -181,7 +181,7 @@ span {
 }
 
     .tecnologias {
-        padding: 5rem;
+        padding: 18rem;
         background-color: var(--bg-color);
     }
 
@@ -273,19 +273,19 @@ span {
 }
 .Portfolio {
     background: var(--second-bg-color);
-    padding: 2rem;
+    padding: 5rem;
 }
 
 .Portfolio h2 {
-    margin: 4rem;
+    margin: 6rem;
 }
 
 .Portfolio-contenedor {
-    margin-bottom: 4rem;
+    margin-bottom: 15rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
-    gap: 2.5rem;
+    gap: 5rem;
 }
 
 .Portfolio-contenedor .Portfolio-box {
