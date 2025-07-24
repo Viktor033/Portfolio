@@ -302,6 +302,20 @@ span {
   transform: scale(1.1);
 }
 
+/* Caja contenedora del proyecto */
+.Portfolio-box {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Imagen del proyecto */
+.Portfolio-box img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Capa que aparece al hacer hover */
 .Portfolio-box .Portfolio-layer {
   position: absolute;
   bottom: 0;
@@ -316,8 +330,42 @@ span {
   text-align: center;
   padding: 0 4rem;
   transform: translateY(100%);
-  transition: 0.5s ease;
+  transition: transform 0.5s ease;
 }
+
+/* Al hacer hover sobre la caja, se muestra la capa */
+.Portfolio-box:hover .Portfolio-layer {
+  transform: translateY(0);
+}
+
+/* Estilos del texto dentro de la capa */
+.Portfolio-layer h4 {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.Portfolio-layer p {
+  color: #fff;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Icono del enlace */
+.Portfolio-layer a {
+  display: inline-block;
+  background: #fff;
+  padding: 0.5rem;
+  border-radius: 50%;
+  color: var(--main-color);
+  transition: background 0.3s, color 0.3s;
+}
+
+.Portfolio-layer a:hover {
+  background: var(--main-color);
+  color: #fff;
+}
+
 
 .Portfolio-box:hover .Portfolio-layer {
   transform: translateY(0);
@@ -345,6 +393,23 @@ span {
 .Portfolio-layer a i {
   font-size: 2rem;
   color: var(--second-bg-color);
+}
+
+.Portfolio-box {
+  height: 250px; /* Puedes ajustar esto según tus imágenes */
+}
+
+.Portfolio-box img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.Portfolio-layer p {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  max-height: 60px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .Contacto h2 {
